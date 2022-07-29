@@ -33,10 +33,11 @@ var option;
 
 option = {
   title: {
-    text: '缓进急战——筹借军饷',
-    left: 'center',
+    text: '        缓进急战——筹借军饷',
+    left: 'middle',
     textStyle: {
-        color: '#eee'
+        color: '#eee',
+        fontsize: 20
     }
   },
   tooltip: {
@@ -45,7 +46,7 @@ option = {
   },
   legend: {
     orient: 'vertical',
-    left: 'left',
+    left: 'right',
     data: ['英商怡和洋行/万两', '英商丽如洋行/万两', '英商汇丰洋行/万两', '户部/万两', '各省协饷/万两'],
     textStyle: {
         color: '#fff',
@@ -57,7 +58,7 @@ option = {
       name: '欠款来源',
       type: 'pie',
       radius: '55%',
-      center: ['50%', '60%'],
+      center: ['63%', '60%'],
       data: [
         { value: 100, name: '英商怡和洋行/万两' },
         { value: 200, name: '英商丽如洋行/万两' },
